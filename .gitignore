@@ -10,3 +10,4 @@ wheels/
 .venv
 
 videos/
+*.tar.gz
