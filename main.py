@@ -50,6 +50,9 @@ def main():
 
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
+        
+        # if cv2.waitKey(1) & 0xFF == ord("w"):
+        #     freenect.set_tilt_d
     
     if video_writer is not None:
         video_writer.release()
